@@ -33,12 +33,19 @@ This is the list of dependencies for running this application.
 ## How to use
 1. Download or clone this repository.
 2. Extract to some location.
-3. First, run **```app.py```** from **```RealTime-DigitRecognition```** folder.<br>
+3. The `requirements.txt` file should list all Python libraries that your notebooks
+depend on, and they will be installed using:
+
+```
+pip install -r requirements.txt
+```
+
+4. First, run **```app.py```** from **```RealTime-DigitRecognition```** folder.<br>
     Now, Pygame window will open. It will look like this.<br><br>
    	![Pygame window](assets/pygame_window.png "Pygame window" )<br><br>
 
-4. Draw the digits on **left** side of the window and output will appear on **right** side of the window. 
-5. Mouse handling:<br>
+5. Draw the digits on **left** side of the window and output will appear on **right** side of the window. 
+6. Mouse handling:<br>
     The **right** button is for resetting screen.<br>
     The **left** button is for drawing.
 
